@@ -1,8 +1,17 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
-
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://media0.giphy.com/media/3osxY9kuM2NGUfvThe/giphy.gif?cid=ecf05e47mrwh1hzt07vi7i5rio9k0l56hfat4b4869cethbh&rid=giphy.gif");
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+}
 .filters {
-  background: white;
+  background: black;
   width: 100%;
+  color: white;
   li {
     display: inline-block;
     max-width: 80px;
